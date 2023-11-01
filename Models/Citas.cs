@@ -15,7 +15,7 @@ namespace ProyectoProgramación.Models
         [StringLength(100, ErrorMessage = "El motivo no puede exceder los 100 caracteres.")]
         public string Motivo { get; set; }
 
-        [Required(ErrorMessage = "El nombre del animal es obligatorio.")]
+        [Required(ErrorMessage = "El nombre es obligatorio.")]
         [StringLength(50, ErrorMessage = "El nombre del animal no puede exceder los 50 caracteres.")]
         public string NombreAnimal { get; set; }
 
