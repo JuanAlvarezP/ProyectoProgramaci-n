@@ -15,5 +15,7 @@ namespace ProyectoProgramación.Data
         }
 
         public DbSet<ProyectoProgramación.Models.Citas> Citas { get; set; } = default!;
+
+        public DbSet<ProyectoProgramación.Models.Mascotas>? Mascotas { get; set; }
     }
 }
