@@ -2,7 +2,7 @@
 
 namespace ProyectoProgramación.Models
 {
-    public class Usuario
+    public class Usuarios
     {
         [Key]
         public int Id { get; set; }
